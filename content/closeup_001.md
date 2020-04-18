@@ -1,0 +1,7 @@
+Title: Closeup 1
+Date: 2020-04-17
+Category: Closeups
+
+This is the first in a series of closeup shots. Take a guess at what this is!
+
+![Closeup 001]({static}/images/closeup_001.jpg)

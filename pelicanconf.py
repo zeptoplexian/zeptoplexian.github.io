@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Caine Family'
+AUTHOR = 'Zeptoplexian'
 SITENAME = 'Zeptoplexian'
-SITEURL = ''
+SITEURL = 'https://www.zeptoplexian.com'
 
 PATH = 'content'
 
@@ -20,16 +20,23 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+# LINKS = (
+#     ('Khan Academy', 'https://www.khanacademy.org'),
+# )
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (
+    ('youtube', 'https://youtube.com/zeptoplexian'),
+)
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
+
+# Bryce add
+THEME = '/Users/caine/pelican-themes/tuxlite_tbs'
+USE_FOLDER_AS_CATEGORY = True
+DISPLAY_PAGES_ON_MENU = True
+DISPLAY_CATEGORIES_ON_MENU = True
+DISQUS_SITENAME = 'zeptoplexian'
